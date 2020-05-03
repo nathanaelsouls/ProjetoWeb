@@ -42,15 +42,16 @@
     </nav>
 
     <partial name="_CookieConsentPartial" />
-
+    
     <div class="container body-content">
         @RenderBody()
-        <hr />
+    </div>
+    <div class="container body-content">
         <footer>
+            <hr />
             <p>&copy; 2020 - SalesWebMvc</p>
         </footer>
     </div>
-
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
